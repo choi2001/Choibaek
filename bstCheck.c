@@ -1,4 +1,4 @@
-w#include <stdio.h>
+#include <stdio.h>
 #include<stdlib.h>
 
 typedef struct tree {
@@ -76,9 +76,9 @@ int main()
 	int result= isBinarySearchTree(root);
 	if (result == 1)
 	{
-		printf("¼º°ø");
+		printf("Â¼ÂºÂ°Ã¸");
 	}
 	else
-		printf("½ÇÆĞ");
+		printf("Â½Ã‡Ã†Ã");
 	return 0;
 }
